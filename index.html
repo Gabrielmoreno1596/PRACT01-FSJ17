@@ -1,0 +1,84 @@
+<!-- Estructura básica -->
+<!DOCTYPE html> <!-- Tipo de documento -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <!-- Página acepta todo tipo de caracteres -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Compatible con cualquier navegador -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Las dimensiones de los dispositivos  -->
+    <title>Lugares Turísticos </title>
+</head>
+
+<body>
+    <!-- Contenido que visualizará el usuario -->
+    <!-- Creando el encabezado -->
+    <header>
+        <h1>Lugares Turísticos de El Salvador</h1>
+    </header>
+    <nav><!-- Incio del menu de navegación -->
+        <!-- listas desordenadas  -->
+        <ul>
+            <!-- Elementos de una lista -->
+            <!-- DIFERENTES TIPOS DE RUTAS PARA ACCEDER A UN ARCHIVO -->
+            <!-- TIPOS DE RUTAS
+                1. RUTAS RELATIVAS: Especifica las rutas de archivos 
+                                    que estan ubicados localmente o en 
+                                    un servidor
+                2. RUTAS ABSOLUTAS: Especifica las rutas de enlaces, URL que estan alojadas en un servidor 
+                                    externos -->
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./RutaFlores.html">Ruta de la Flores</a></li>
+            <li><a href="./ElPital.html">El Pital</a></li>
+            <li><a href="./LagoCoatepeque.html">Lago de Coatepeque</a></li>
+        </ul>
+    </nav>
+    <!-- CONTENIDO PRINCIPAL DE LA PAGINA 
+         la etiquera <section>, <main>, <div>, <article>
+         <main>: Etiqueta padre para nuestro contenido
+            <Article>: Etiqueta para dividir nuestros 
+                        contenido    
+        
+        -->
+    <main>
+        <section>
+            <article>
+                <h2>Bienvenidos a nuestra pagina web!</h2>
+            </article>
+            <article>
+                <!-- describiendo de que trata la pagina web -->
+                <p>
+                    En este sitio web encontraras los lugares
+                    turisticos de el salvador! <br>
+                    pordra visualizar imagenes, detalles, direccion de dicho lugar...
+                </p>
+            </article>
+            <article>
+                <!-- Imagenes 
+                        src: Propiedad donde colocamos la ruta de la imagen
+                        alt: Propiedad que describe de que trata la imagen
+                -->
+                <img src="./images/Lugares_turisticos_el-salvador.jfif" alt="Luagres Turísticos">
+            </article>
+
+            <!-- Apartado que no es tan relevante para la pagina web-->
+            <aside>
+                <!-- <span>
+                      Hace relevancia a lo que tenemos en otra etiqueta
+                      
+                      taget: es una propiedad toma como relevancia la direccion de la ruta
+                      _blank: redirigir la rutas en una nueva pestaña.
+            -->
+                <h4>Dale Click
+                    <span>
+                        <a href="https://htmlreference.io/" target="_blank">Aqui</a>
+                    </span>
+                </h4>
+            </aside>
+    </main>
+    <!-- Pie de pagina -->
+    <footer>
+        <h1> 2023 &copy; Gabriel Moreno</h1>
+    </footer>
+</body>
+
+</html>
