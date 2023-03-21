@@ -1,0 +1,15 @@
+h1, h2 {
+    background-color: rgb(182, 201, 218);
+    height: 100px;
+    line-height: 100px;
+    color: rgb(1, 32, 32);
+    text-align: center;
+
+}
+
+li {
+    list-style: none;
+    display: inline;
+    height: 50px;
+    padding: 20px;
+}
